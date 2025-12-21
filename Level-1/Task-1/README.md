@@ -1,39 +1,50 @@
 # Level 1 – Task 1: Personal Website
 
-## Task Description
-Build a personal website with the following pages:
-- Home
-- Education
-- Skills
-- Contact
+## 📌 Project Overview
+This project is a **responsive multi-page personal website** created as part of **Level-1 Task-1**.  
+The website presents basic personal, academic, and technical information in a clean and structured format.
 
-The website should present basic personal and academic information in a clean and structured manner.
+## 🧩 Pages Included
+The website consists of the following pages:
 
-## Pages Implemented
-### Home
-- Brief introduction about myself
-- Career focus and interests
+- **Home** – Introduction and brief profile summary  
+- **Education** – Academic background and qualifications  
+- **Skills** – Technical and soft skills  
+- **Projects** – Academic projects with brief descriptions  
+- **Contact** – Contact information  
 
-### Education
-- Academic background
-- Degree and institution details
+## 🗂️ Folder Structure
+Level-1/
+└── Task-1/
+└── site/
+├── index.html
+├── education.html
+├── skills.html
+├── projects.html
+├── contact.html
+└── style.css
 
-### Skills
-- Technical skills
-- Tools and technologies I am familiar with
 
-### Contact
-- Email or contact information
-- Basic contact form or details
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- Responsive Web Design  
+- Basic animations and hover effects  
 
-## Technologies Used
-- HTML
-- CSS
-- (Optional) JavaScript
+## 🎨 Design Highlights
+- Minimal, Pinterest-inspired layout  
+- Consistent navigation across all pages  
+- Responsive design for desktop and mobile screens  
+- Soft color palette with subtle animations  
 
-## Outcome
-This task helped me understand:
-- How to structure a multi-page website
-- Basic front-end development using HTML and CSS
-- Organizing a small project in a professional way
+## 🚀 How to Run the Project
+1. Download or clone the repository  
+2. Navigate to `Level-1/Task-1/site/`  
+3. Open `index.html` in any modern web browser  
 
+## 👤 Author
+**Shishira M A**  
+MCA Student | Aspiring Software Engineer  
+
+## 📅 Year
+2025
