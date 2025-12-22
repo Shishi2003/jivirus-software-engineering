@@ -37,14 +37,18 @@ Level-1/
 - Responsive design for desktop and mobile screens  
 - Soft color palette with subtle animations  
 
-## 🚀 How to Run the Project
-1. Download or clone the repository  
-2. Navigate to `Level-1/Task-1/site/`  
-3. Open `index.html` in any modern web browser  
+## Live Demo
+https://shishi2003.github.io/jivirus-software-engineering/Level-1/Task-1/site/index.html
+
+## How to Run Locally
+1. Download or clone the repository
+2. Navigate to Level-1/Task-1/site/
+3. Open index.html in any modern web browser
+
 
 ## 👤 Author
 **Shishira M A**  
-MCA Student | Aspiring Software Engineer  
+MCA Student 
 
 ## 📅 Year
 2025
