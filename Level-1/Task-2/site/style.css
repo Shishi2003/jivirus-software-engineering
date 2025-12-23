@@ -1,0 +1,135 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        120deg,
+        #b9b5b5,
+        #636060,
+        #cecccc,
+        #e6e6e6,
+        #ffffff
+    );
+    background-size: 300% 300%;
+    animation: gradientShift 12s ease infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Background animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    width: 420px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 28px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+/* Section titles */
+.section-title {
+    font-weight: 700;
+    margin-bottom: 14px;
+    display: block;
+    color: #222;
+}
+
+/* Text inputs & dropdowns only */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+/* Option rows (checkbox + radio) */
+.option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Fix checkbox & radio width bug */
+.option input[type="checkbox"],
+.option input[type="radio"] {
+    width: auto;
+    margin: 0;
+    transform: scale(1.1);
+}
+
+/* Option labels */
+.option label {
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+button, .back {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Submit */
+button {
+    background: #111;
+    color: white;
+}
+
+button:hover {
+    background: #333;
+}
+
+/* Back */
+.back {
+    background: #ccc;
+    color: #111;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
