@@ -1,6 +1,6 @@
-# Level 1 – Task 2: Survey Website
+# 📌Level 1 – Task 2: Survey Website
 
-## Project Overview
+## 🧩Project Overview
 This project is a multi-page survey website created as part of Level-1 Task-2.  
 The website collects user responses through a structured, step-by-step survey form using client-side validation.
 
@@ -9,7 +9,7 @@ The website collects user responses through a structured, step-by-step survey fo
 - Survey – Gathers social media usage information
 - Thank You – Displays submission confirmation
 
-## Folder Structure
+## 🗂️Folder Structure
 Level-1/
 └── Task-2/
     └── site/
@@ -19,7 +19,7 @@ Level-1/
         ├── style.css
         └── script.js
 
-## Technologies Used
+## 🛠️Technologies Used
 - HTML5
 - CSS3
 - JavaScript (client-side validation)
@@ -27,14 +27,14 @@ Level-1/
 ## Live Demo
 https://shishi2003.github.io/jivirus-software-engineering/Level-1/Task-2/site/index.html
 
-## How to Run Locally
+## 🎨How to Run Locally
 - Download or clone the repository
 - Navigate to Level-1/Task-2/site/
 - Open index.html in any modern web browser
 
-## Author
+## 👤Author
 Shishira M A  
 MCA Student
 
-## Year
+## 📅Year
 2025
