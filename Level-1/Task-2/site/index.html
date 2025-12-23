@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Task 2 – Survey</title>
+    <meta charset="UTF-8">
+    <title>Social Media Usage Survey</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Task 2 Survey Site</h1>
+
+<div class="card">
+    <h2>Social Media Usage Survey</h2>
+
+    <form action="survey.html" onsubmit="return validatePage1()">
+
+        <div class="section">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" style=" margin-bottom: 22px; " placeholder="Enter your name">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <label for="age">Age Group</label>
+            <select id="age">
+                <option value="">Select</option>
+                <option>Below 18</option>
+                <option>18–25</option>
+                <option>26–35</option>
+                <option>36+</option>
+            </select>
+        </div>
+
+        <div class="actions">
+            <button type="submit" >Next</button>
+        </div>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
